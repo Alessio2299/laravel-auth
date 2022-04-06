@@ -33,7 +33,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
                         <ul class="navbar-nav mr-auto">
-
+                            <li><a class="nav-link" href="/">Posts</a></li>
                         </ul>
 
                         <!-- Right Side Of Navbar -->
@@ -65,6 +65,11 @@
                                             @csrf
                                         </form>
                                     </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="{{route('admin.posts.create')}}">
+                                        Create Post
+                                    </a>
                                 </li>
                             @endguest
                         </ul>
