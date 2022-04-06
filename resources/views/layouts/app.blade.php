@@ -32,9 +32,10 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <!-- Left Side Of Navbar -->
-                        <ul class="navbar-nav mr-auto">
-                            <li><a class="nav-link" href="/">Posts</a></li>
-                        </ul>
+
+                            <ul class="navbar-nav mr-auto">
+                                
+                            </ul>
 
                         <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav ml-auto">
@@ -69,6 +70,11 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="{{route('admin.posts.create')}}">
                                         Create Post
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="{{route('admin.posts.index')}}">
+                                        Posts
                                     </a>
                                 </li>
                             @endguest
