@@ -10,6 +10,6 @@ class HomeController extends Controller
 {
     public function index(){
         $users = Auth::user();
-        return view('home', compact('users'));
+        return view('admin.home', compact('users'));
     }
 }
